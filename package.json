@@ -11,9 +11,15 @@
       "standard"
     ]
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "husky": "^8.0.2",
     "lint-staged": "^13.1.0",
     "standard": "^17.0.0"
   }

@@ -1,3 +1,3 @@
-function aaa () {
-  return null
+function aaa() {
+  return null;
 }
